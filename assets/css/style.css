@@ -382,6 +382,7 @@ textarea {
 
 header {
 	clear: both;
+	position: static;
 	left: 0;
 	width: 100%;
 	margin: 0 auto 0 auto;
@@ -444,4 +445,22 @@ aside {
 	width: 560px;
 }
 
+.folio0, .folio1, .folio2, .folio3, .folio4 {
+	float: left;
+	width: 470px;
+	color: #ffffff;
+	margin: 10px;
+}
+
+.pf_wrap img {
+	width: 480px;
+	height: 400px;
+	margin: 0;
+}
+
+.p_title {
+	left: 0px;
+	top: -60px;
+	width: 480px;
+}
 }
