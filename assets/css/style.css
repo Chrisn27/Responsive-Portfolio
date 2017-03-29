@@ -320,7 +320,7 @@ nav {
 .main-section {
   clear: both;
   margin: 0 auto 0 auto;
-  max-width: 560px;
+  max-width: 500px;
 }
 
 .auth-image {
@@ -330,8 +330,9 @@ nav {
 }
 
 .sidebar {
-  max-width: 560px;
+  max-width: 500px;
   margin: 0 auto 0 auto;
+  margin-top: 10px;
   clear: both;
 }
 
@@ -357,11 +358,14 @@ nav {
 nav {
   clear: both;
   margin: 0 auto 0 auto;
+  padding: 10px 0;
 }
 
 nav a {
-  padding-left: 31px;
-  margin-left: 31px;
+  position: relative;
+  right: 60px;
+  padding-left: 30px;
+  margin-left: 30px;
   border-left: 1px solid #efefef;
 }
 }
